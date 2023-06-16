@@ -1,36 +1,3 @@
-# Social Media Analyzer
-
-The Social Media Analyzer is a Python-based sentiment analysis tool that analyzes text data from social media platforms and predicts sentiment labels (positive, negative, neutral). It utilizes natural language processing techniques and machine learning algorithms to perform sentiment analysis.
-
-## Features
-
-- Collects social media posts and their sentiment labels for analysis
-- Preprocesses the text data by removing special characters, URLs, hashtags, and mentions
-- Converts the text data into numerical features using TF-IDF vectorization
-- Trains a support vector machine (SVM) classifier on the preprocessed data
-- Provides real-time sentiment analysis predictions for new social media posts
-- Visualizes the sentiment distribution in a bar chart
-- Retrieves real-time stock market and crypto updates using the Alpha Vantage API
-- User-friendly graphical user interface (GUI) for easy interaction
-
-## Installation
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/your-username/social-media-analyzer.git
-## Requirements
-pip install -r requirements.txt
-
-
-- Python 3.7 or above
-- OpenCV (cv2) library
-- NumPy library
-- threading library
-- smtplib library (for email notifications)
-- GUI library (e.g., Tkinter, PyQt, PySide)
-
-## Installation
 
 1. Clone the repository:
 
